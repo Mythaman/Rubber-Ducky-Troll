@@ -168,5 +168,5 @@ Add-Type $pinvokeCode -ErrorAction SilentlyContinue
 }
 while ($true) {
 	Set-ScreenResolutionAndOrientation
-	Start-Sleep -Seconds .25
+	Start-Sleep -Seconds .5
 }
